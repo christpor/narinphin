@@ -59,7 +59,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
 .home-brand-stamp img, .page-brand-stamp img { width: 22px; height: 22px; object-fit: contain; }
 .home-brand-stamp strong, .page-brand-stamp strong { color: var(--copper); }
 .home-brand-stamp i { margin-left: .25rem; padding-left: .62rem; border-left: 1px solid var(--line); color: var(--muted); font-size: .53rem; font-style: normal; letter-spacing: .1em; }
-.home-hero h1.kh, .page-hero h1.kh, .route-grid-heading h2.kh, .channel-band h2.kh, .route-card h3.kh { font-family: "Kantumruy Pro", sans-serif; font-weight: 600; letter-spacing: -.01em; line-height: 1.22; }
+.home-hero h1.kh, .page-hero h1.kh, .route-grid-heading h2.kh, .channel-band h2.kh, .route-card h3.kh { font-family: "Kantumruy Pro", sans-serif; font-weight: 600; letter-spacing: -.01em; line-height: 1.24; }
 .section-pad { padding: clamp(5.25rem,9vw,9rem) clamp(1.25rem,8vw,10rem); }
 .section-heading { max-width: 660px; }
 .section-heading h2, .page-hero h1, .home-hero h1, .intro-copy h2, .route-grid-heading h2, .channel-band h2, .story-layout h2, .image-statement h2, .contact-layout h2, .not-found h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 500; letter-spacing: -.045em; line-height: .99; }
@@ -70,11 +70,13 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
 
 .home-hero { display: grid; grid-template-columns: minmax(0,.96fr) minmax(440px,1.04fr); gap: clamp(2rem,6vw,7rem); min-height: min(790px,92svh); max-width: 1530px; margin: auto; padding: 7.8rem clamp(1.25rem,5.5vw,7.5rem) 3rem; }
 .home-hero-copy { align-self: center; padding: 1rem 0 2rem; }
-.home-hero h1 { max-width: 740px; margin: 1.12rem 0 1.35rem; font-size: clamp(3.7rem,6.25vw,7.25rem); }
+.home-hero h1 { max-width: 690px; margin: 1rem 0 1.1rem; font-size: clamp(3.15rem,5.3vw,5.85rem); }
 .home-hero h1 em { color: var(--evergreen); font-style: italic; }
-.home-lede { max-width: 465px; margin: 0; color: var(--muted); font-size: clamp(1rem,1.25vw,1.1rem); font-weight: 500; line-height: 1.65; }
+.home-lede { max-width: 455px; margin: 0; color: var(--muted); font-size: clamp(.94rem,1.12vw,1.02rem); font-weight: 500; line-height: 1.62; }
+.home-lede.kh { font-size: .92rem; line-height: 1.72; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.45rem; margin-top: 2.2rem; }
-.primary-cta { position: relative; min-height: 48px; overflow: hidden; border: 1px solid var(--evergreen); border-radius: 0; background: var(--evergreen); box-shadow: none; font-size: .71rem; font-weight: 760; letter-spacing: .075em; text-transform: uppercase; transition: transform .16s var(--ease-out), background-color .16s var(--ease-out); }
+.primary-cta { position: relative; min-height: 46px; overflow: hidden; border: 1px solid var(--evergreen); border-radius: 0; background: var(--evergreen); box-shadow: none; color: #fffdf8 !important; font-size: .67rem; font-weight: 760; letter-spacing: .07em; text-transform: uppercase; transition: transform .16s var(--ease-out), background-color .16s var(--ease-out); }
+.primary-cta a, .primary-cta svg { position: relative; z-index: 1; color: #fffdf8 !important; }
 .primary-cta::before { width: 7px; height: 7px; margin-right: .45rem; border-radius: 50%; background: #e9a990; content: ""; }
 .primary-cta:hover { transform: translateY(-2px); background: #255248; }
 .primary-cta:active { transform: scale(.97); }
@@ -103,14 +105,14 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
 
 .route-grid-section { background: var(--paper-deep); }
 .route-grid-heading { display: flex; justify-content: space-between; gap: 2rem; max-width: 1325px; margin: auto; }
-.route-grid-heading h2 { max-width: 630px; margin: 1.05rem 0 0; font-size: clamp(2.35rem,3.95vw,4.45rem); }
-.route-grid-heading > p { max-width: 325px; margin: auto 0 0; color: var(--muted); font-size: .95rem; line-height: 1.7; }
+.route-grid-heading h2 { max-width: 590px; margin: .85rem 0 0; font-size: clamp(2.05rem,3.35vw,3.65rem); }
+.route-grid-heading > p { max-width: 305px; margin: auto 0 0; color: var(--muted); font-size: .88rem; line-height: 1.62; }
 .route-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; max-width: 1325px; margin: 2.55rem auto 0; background: var(--line); }
 .route-card { position: relative; display: block; min-height: 205px; padding: 1.3rem; background: var(--paper-deep); transition: background-color .18s var(--ease-out), transform .18s var(--ease-out), box-shadow .18s var(--ease-out); }
 .route-card:hover { z-index: 1; transform: translateY(-4px); background: #fffdf8; }
 .route-card-top { display: flex; align-items: flex-start; justify-content: space-between; color: var(--copper); }
 .route-card-top span { font-size: .61rem; font-weight: 750; letter-spacing: .12em; }
-.route-card h3 { max-width: 175px; margin: 2.95rem 0 .25rem; color: var(--evergreen); font-family: "Source Serif 4", Georgia, serif; font-size: 1.52rem; font-weight: 500; line-height: 1.04; }
+.route-card h3 { max-width: 175px; margin: 2.8rem 0 .25rem; color: var(--evergreen); font-family: "Source Serif 4", Georgia, serif; font-size: 1.38rem; font-weight: 500; line-height: 1.08; }
 .route-card > p { margin: 0; color: var(--muted); font-size: .8rem; }
 .route-card-arrow { position: absolute; right: 1.35rem; bottom: 1.35rem; color: var(--evergreen); }
 .channel-band { display: grid; grid-template-columns: minmax(0,.93fr) minmax(0,1.07fr); gap: clamp(2.5rem,7vw,8rem); align-items: center; padding: clamp(4.5rem,8vw,8rem) clamp(1.25rem,8vw,10rem); background: var(--evergreen); color: #fffdf8; }
@@ -123,8 +125,9 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
 
 .page-hero { display: grid; grid-template-columns: minmax(0,.98fr) minmax(380px,.72fr); min-height: 630px; padding: 8rem clamp(1.25rem,8vw,10rem) 3rem; background: var(--paper-quiet); }
 .page-hero-copy { max-width: 750px; align-self: center; padding: 2rem 3rem 2rem 0; }
-.page-hero h1 { margin: 1rem 0 1.1rem; font-size: clamp(3.35rem,5.55vw,6.45rem); }
-.page-hero-intro { max-width: 580px; margin: 0; color: var(--muted); font-size: 1rem; line-height: 1.75; }
+.page-hero h1 { max-width: 675px; margin: .85rem 0 .95rem; font-size: clamp(2.85rem,4.65vw,5.35rem); }
+.page-hero-intro { max-width: 535px; margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.65; }
+.page-hero-intro.kh { font-size: .9rem; line-height: 1.72; }
 .page-hero-media { position: relative; overflow: hidden; align-self: stretch; min-height: 430px; border: 1px solid rgba(23,63,55,.12); background: #fffdf8; box-shadow: 12px 12px 0 rgba(167,85,66,.11); }
 .page-hero-media::before { position: absolute; z-index: 2; top: 0; left: 0; width: 31%; height: 4px; background: var(--copper); content: ""; }
 .page-hero-media::after { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent, rgba(23,63,55,.13)); content: ""; }
@@ -259,7 +262,10 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
   .brand-mark { width: 28px; height: 28px; }
   .brand-type { font-size: .68rem; }
   .home-hero { padding-right: 1.2rem; padding-left: 1.2rem; }
-  .home-hero h1 { font-size: clamp(3.45rem,16.4vw,4.7rem); }
+  .home-hero h1 { font-size: clamp(2.75rem,13.6vw,3.72rem); }
+  .home-hero h1.kh { font-size: clamp(2.42rem,12.3vw,3.28rem); }
+  .home-lede { max-width: 350px; font-size: .88rem; line-height: 1.62; }
+  .home-lede.kh { font-size: .84rem; line-height: 1.72; }
   .home-brand-stamp, .page-brand-stamp { margin-bottom: 1.15rem; }
   .home-hero-visual { min-height: 420px; }
   .hero-context { inset: 0 1% 8% 0; }
@@ -269,15 +275,18 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(167,85,66,.46); 
   .home-credentials strong { font-size: 1.28rem; }
   .home-credentials span { max-width: 72px; font-size: .54rem; line-height: 1.35; }
   .section-pad { padding-right: 1.2rem; padding-left: 1.2rem; }
-  .section-heading h2, .intro-copy h2, .route-grid-heading h2, .channel-band h2, .story-layout h2, .image-statement h2, .contact-layout h2 { font-size: clamp(2.35rem,11.5vw,3.35rem); }
+  .section-heading h2, .intro-copy h2, .route-grid-heading h2, .channel-band h2, .story-layout h2, .image-statement h2, .contact-layout h2 { font-size: clamp(1.95rem,9.7vw,2.75rem); }
   .intro-image { min-height: 320px; }
   .route-grid { grid-template-columns: 1fr; }
   .route-card { min-height: 175px; }
-  .route-card h3 { margin-top: 2.25rem; }
+  .route-card h3 { margin-top: 2.15rem; font-size: 1.28rem; }
   .channel-band { padding: 3.5rem 1.2rem; }
   .channel-band-image { min-height: 250px; }
   .page-hero { padding: 7.5rem 1.2rem 2rem; }
-  .page-hero h1 { font-size: clamp(3rem,14vw,4.3rem); }
+  .page-hero h1 { font-size: clamp(2.38rem,11.5vw,3.25rem); }
+  .page-hero h1.kh { font-size: clamp(2.15rem,10.6vw,2.9rem); }
+  .page-hero-intro { font-size: .88rem; line-height: 1.65; }
+  .page-hero-intro.kh { font-size: .84rem; line-height: 1.72; }
   .page-hero-media { min-height: 320px; }
   .fact-grid, .principle-grid { grid-template-columns: 1fr; }
   .fact-grid article { min-height: 190px; }
