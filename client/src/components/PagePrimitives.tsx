@@ -4,6 +4,8 @@
  */
 import { motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { ASSETS } from "@/lib/site";
 
 export function Reveal({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
   const reducedMotion = useReducedMotion();
@@ -14,14 +16,15 @@ export function Reveal({ children, delay = 0, className = "" }: { children: Reac
   );
 }
 
-export function PageHero({ number, eyebrow, khmer, title, intro, image, imageAlt }: { number: string; eyebrow: string; khmer: string; title: string; intro: string; image: string; imageAlt: string }) {
+export function PageHero({ number, eyebrow, khmer, title, intro, khmerTitle, khmerIntro, image, imageAlt }: { number: string; eyebrow: string; khmer: string; title: string; intro: string; khmerTitle?: string; khmerIntro?: string; image: string; imageAlt: string }) {
+  const { locale } = useLanguage();
   return (
     <section className="page-hero">
       <div className="page-hero-copy">
-        <div className="route-kicker"><span>{number}</span>{eyebrow}</div>
-        <p className="kh route-kh">{khmer}</p>
-        <h1>{title}</h1>
-        <p className="page-hero-intro">{intro}</p>
+        <div className="page-brand-stamp"><img src={ASSETS.mark} alt="" /><span>Narin <strong>Phin</strong></span></div>
+        <div className={`route-kicker ${locale === "km" ? "kh" : ""}`}><span>{number}</span>{locale === "km" ? khmer : eyebrow}</div>
+        <h1 className={locale === "km" ? "kh" : ""}>{locale === "km" && khmerTitle ? khmerTitle : title}</h1>
+        <p className={`page-hero-intro ${locale === "km" ? "kh" : ""}`}>{locale === "km" && khmerIntro ? khmerIntro : intro}</p>
       </div>
       <div className="page-hero-media"><img src={image} alt={imageAlt} /></div>
     </section>
@@ -29,10 +32,10 @@ export function PageHero({ number, eyebrow, khmer, title, intro, image, imageAlt
 }
 
 export function SectionHeading({ number, eyebrow, khmer, title, body }: { number: string; eyebrow: string; khmer?: string; title: string; body?: string }) {
+  const { locale } = useLanguage();
   return (
     <div className="section-heading">
-      <div className="route-kicker"><span>{number}</span>{eyebrow}</div>
-      {khmer && <p className="kh route-kh">{khmer}</p>}
+      <div className={`route-kicker ${locale === "km" ? "kh" : ""}`}><span>{number}</span>{locale === "km" && khmer ? khmer : eyebrow}</div>
       <h2>{title}</h2>
       {body && <p>{body}</p>}
     </div>
