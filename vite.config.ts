@@ -207,7 +207,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   // GitHub Pages serves project sites below /<repository>/; Manus continues at the root URL.
-  base: process.env.GITHUB_PAGES === "true" ? "/narinphin-portfolio/" : "/",
+  base: process.env.GITHUB_PAGES === "true" ? "/narinphin/" : "/",
   plugins,
   resolve: {
     alias: {
