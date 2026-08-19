@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const origin = process.env.SITE_ORIGIN || "https://narinphin.vercel.app";
+const origin = process.env.SITE_ORIGIN || "https://narinphin-one.vercel.app";
 const outputDirectory = path.resolve("dist/public");
 const rootHtml = fs.readFileSync(path.join(outputDirectory, "index.html"), "utf8");
 
