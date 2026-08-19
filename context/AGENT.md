@@ -14,14 +14,14 @@ Christ — AI Engineer & System Architect in Phnom Penh (UTC+7). Values speed, d
 
 ## 4. CURRENT STATE
 - **Branch:** `main` (tracked to `origin/main` at `github.com/christpor/narinphin`).
-- **Build Status:** Compiles clean with static prerendering pipeline (`pnpm build:pages`).
-- **Live Concept:** The Scholarly Atelier — bilingual educator portfolio for Narin Phin.
-- **Pending:** User roadmap execution & feature enhancements for today's plan.
+- **Build Status:** Compiles clean with static prerendering pipeline (`pnpm build:pages` and `pnpm build`).
+- **Live Production URL:** `https://narinphin-one.vercel.app` (Vercel Production).
+- **Pending:** Feature plan and upgrades from Christ.
 
 ## 5. NEXT TASKS
 1. Ingest Christ's feature plan for today's roadmap.
 2. Implement requested pages/components with strict `Kantumruy Pro` typography and zero h-scroll.
-3. Run static build check (`pnpm check` and `pnpm build:pages`).
+3. Run static build check (`pnpm check` and `pnpm build`).
 4. Perform visual & functional QA across all 6 core routes (`/`, `/about`, `/expertise`, `/journey`, `/learn`, `/contact`).
 
 ## 6. KEY FILES & UTILS
@@ -36,10 +36,11 @@ Christ — AI Engineer & System Architect in Phnom Penh (UTC+7). Values speed, d
 - **Dev Server:** `pnpm dev`
 - **Typecheck:** `pnpm check`
 - **Static Pages Build:** `pnpm build:pages`
+- **Vercel Deploy:** `vercel deploy --prod --yes`
 - **Git Push:** `git add -A && git commit -m "feat: [scope] msg" && git push origin main`
 - **Rollback:** `git log -n 5 --oneline` then `git checkout <hash>`
 
 ## 8. LAST SESSION HANDOFF
-- **Built:** Cloned upstream repository, created public repo `christpor/narinphin`, pushed initial codebase, and established Context Engineering OS (Tier 2/3).
-- **Next Step:** Await Christ's specific development plan for today's sprint.
-- **Ponytail Diff:** +150 lines (context suite) / 0 deleted lines.
+- **Built:** Deployed to Vercel production at `https://narinphin-one.vercel.app`. Configured `vercel.json` SPA rewrites and aligned canonical OpenGraph and sitemap metadata.
+- **Next Step:** Ready for Christ's daily roadmap plan.
+- **Ponytail Diff:** +25 / -12 lines.
