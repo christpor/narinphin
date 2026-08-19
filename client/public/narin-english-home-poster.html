@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>លោកគ្រូ ណារិន — English Classes Poster</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700;800&display=swap');
+      :root { --ink: #173f37; --copper: #a75542; --ivory: #fbfaf6; --muted: #4f635e; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #ddd; color: var(--ink); font-family: "Kantumruy Pro", "Noto Sans Khmer", Arial, sans-serif; }
+      .poster { position: relative; display: grid; grid-template-rows: auto 1fr auto; width: 1200px; height: 1800px; overflow: hidden; background: var(--ivory); }
+      .poster::before { position: absolute; right: -180px; top: -150px; width: 520px; height: 520px; border-radius: 50%; background: var(--ink); content: ""; }
+      .poster::after { position: absolute; left: -120px; top: 700px; width: 240px; height: 680px; border: 1px solid rgba(167,85,66,.22); content: ""; }
+      .botanical { position: absolute; z-index: 2; right: 18px; top: 8px; width: 280px; height: 240px; color: #c7a374; opacity: .9; }
+      .botanical path { fill: none; stroke: currentColor; stroke-width: 2.2; }
+      .top { position: relative; z-index: 1; padding: 88px 96px 38px; }
+      .tiny { display: flex; align-items: center; gap: 16px; color: var(--copper); font-family: Arial, sans-serif; font-size: 23px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+      .tiny span { width: 62px; height: 4px; background: var(--copper); }
+      h1 { max-width: 760px; margin: 40px 0 20px; font-size: 100px; font-weight: 800; letter-spacing: -.04em; line-height: 1.16; }
+      .promise { max-width: 670px; margin: 0; color: var(--muted); font-size: 44px; font-weight: 600; line-height: 1.43; }
+      .english { margin: 28px 0 0; color: var(--copper); font-family: Georgia, serif; font-size: 35px; font-weight: 600; letter-spacing: .01em; }
+      .feature { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) 465px; gap: 64px; align-items: end; padding: 40px 96px 72px; }
+      .credibility { align-self: center; padding: 34px 0 34px 34px; border-left: 7px solid var(--copper); font-size: 47px; font-weight: 700; line-height: 1.35; }
+      .credibility small { display: block; margin-top: 20px; color: var(--muted); font-family: Arial, sans-serif; font-size: 23px; font-weight: 700; letter-spacing: .06em; line-height: 1.45; text-transform: uppercase; }
+      .portrait-wrap { position: relative; height: 700px; background: #e9e7df; box-shadow: 20px 20px 0 rgba(23,63,55,.12); }
+      .portrait-wrap::before { position: absolute; left: 0; top: 0; width: 34%; height: 8px; background: var(--copper); content: ""; }
+      .portrait-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center center; filter: saturate(.9); }
+      .contact { position: relative; z-index: 2; display: grid; grid-template-columns: 1.52fr 1.12fr 190px; gap: 2px; padding: 34px 54px 44px; background: var(--ink); color: var(--ivory); }
+      .contact-block { display: grid; grid-template-columns: 78px 1fr; align-items: center; min-height: 176px; padding: 24px 28px; border: 1px solid rgba(251,250,246,.28); }
+      .contact-icon { display: flex; width: 66px; align-items: center; }
+      .contact-icon img { display: block; width: 56px; height: 56px; object-fit: contain; }
+      .contact-label { margin: 0 0 8px; color: #f1b093; font-family: Arial, sans-serif; font-size: 20px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+      .contact-detail { margin: 0; font-family: Arial, sans-serif; font-size: 32px; font-weight: 800; letter-spacing: .01em; }
+      .phone-detail { font-size: 42px; white-space: nowrap; }
+      .telegram { margin-top: 6px; color: #dce7df; font-size: 20px; }
+      .qr-block { display: grid; place-items: center; min-height: 176px; padding: 14px; border: 1px solid rgba(251,250,246,.28); background: #fff; color: var(--ink); }
+      .qr-block img { display: block; width: 132px; height: 132px; image-rendering: pixelated; }
+      .qr-block span { margin-top: 3px; color: var(--ink); font-family: Arial, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: .04em; text-align: center; }
+      @page { size: 40cm 60cm; margin: 0; }
+      @media print { body { background: #fff; } .poster { width: 40cm; height: 60cm; } }
+    </style>
+  </head>
+  <body>
+    <main class="poster" aria-label="លោកគ្រូ ណារិន outdoor poster">
+      <svg class="botanical" viewBox="0 0 280 240" aria-hidden="true"><path d="M12 230C78 175 125 112 161 16"/><path d="M61 192C26 167 20 126 43 99c33 8 48 44 18 93Z"/><path d="M101 143c-8-39 13-66 49-78 18 32 2 63-49 78Z"/><path d="M143 94c5-35 35-52 68-51 4 35-25 57-68 51Z"/><path d="M171 52c18-25 51-27 75-8-15 27-48 33-75 8Z"/></svg>
+      <section class="top">
+        <div class="tiny"><span></span> English Classes · Phnom Penh</div>
+        <h1>លោកគ្រូ ណារិន</h1>
+        <p class="promise">ថ្នាក់ភាសាអង់គ្លេស សម្រាប់គ្រប់កម្រិត<br />រៀនដោយភាពច្បាស់លាស់ ទំនុកចិត្ត និងការយកចិត្តទុកដាក់</p>
+        <p class="english">English classes for all levels</p>
+      </section>
+      <section class="feature">
+        <p class="credibility">បទពិសោធន៍បង្រៀនជាង ៣០ ឆ្នាំ<small>Small groups · Practical English · Personal guidance</small></p>
+        <figure class="portrait-wrap"><img src="/manus-storage/narin-teacher-portrait-light-shirt_12d9aa45.png" alt="លោកគ្រូ ណារិន, English teacher" /></figure>
+      </section>
+      <footer class="contact">
+        <section class="contact-block">
+          <div class="contact-icon" aria-hidden="true"><img src="/manus-storage/telegram-mark_9b3fe191.webp" alt="" /></div>
+          <div><p class="contact-label">Telegram / Phone</p><p class="contact-detail phone-detail">+855 10 645 517</p><p class="telegram">@narinphin · Telegram available</p></div>
+        </section>
+        <section class="contact-block">
+          <div class="contact-icon" aria-hidden="true"><img src="/manus-storage/gmail-mark_42f4c9bb.png" alt="" /></div>
+          <div><p class="contact-label">Gmail</p><p class="contact-detail">narinphin05@gmail.com</p></div>
+        </section>
+        <section class="qr-block"><img src="/manus-storage/narinphin-telegram-verified-qr_1ffc167b.png" alt="Scan to open Narin Phin on Telegram" /><span>SCAN FOR TELEGRAM</span></section>
+      </footer>
+    </main>
+  </body>
+</html>

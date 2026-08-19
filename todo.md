@@ -1,5 +1,28 @@
 # Reference-Informed Portfolio Refinement
 
+- [x] Confirm GitHub repository owner, name, visibility, and publishing destination before exporting the portfolio code.
+- [ ] Create the public narinphin-portfolio repository and configure its GitHub Pages publication workflow.
+- [ ] Verify the repository contents and final public URL after publishing.
+- [x] Create a reusable educator-brand visual campaign skill from the completed workflow.
+- [x] Include concise guidance for discovery, visual routing, exact text, print proofing, social graphics, and QR/contact validation.
+- [x] Validate and package the skill for future use.
+- [x] Create a teacher-introduction social graphic with a Khmer-first hierarchy and no hiring language.
+- [x] Use a natural teacher portrait with a classroom-appropriate light-blue shirt and preserve Narin’s recognisable face.
+- [x] Validate the 1080 × 1350 social image for mobile-feed readability, Telegram handle, and phone accuracy.
+- [x] Prepare a visible 40 × 60 cm print proof and printer-facing quality checklist for Narin’s approval.
+- [x] Replace the home-class branding with the teacher-led header លោកគ្រូ ណារិន.
+- [x] Apply a larger Kuntumruy Khmer hierarchy for roadside reading and remove the word Home.
+- [x] Use a natural classroom-appropriate teacher portrait based on Narin’s supplied face references.
+- [x] Add recognisable Telegram and Gmail marks plus a verified QR resolving to https://t.me/narinphin.
+- [x] Export and proof the 40 × 60 cm print PDF with exact contact details.
+- [x] Rebuild the home-class poster around a natural full-body likeness based on Narin’s supplied suit-and-glasses reference.
+- [x] Use slimmer, natural proportions; a warm real teaching-space setting; and a refined cream, evergreen, and copper editorial composition.
+- [x] Retain the Khmer-first title and verified Telegram/phone and Gmail contacts without discounts, prices, or crowded copy.
+- [x] Verify the new poster’s likeness and large-format readability before delivery.
+- [x] Create a Khmer-first large-format home-class poster for outside display and social reuse.
+- [x] Include verified phone/Telegram contact `+855 10 645 517` and Gmail `narinphin05@gmail.com` with clear contact icons.
+- [x] Exclude prices, discounts, public home address, and crowded copy; state that mixed-level English classes are available.
+- [x] Verify Khmer wording, contact accuracy, and long-distance legibility before delivery.
 - [x] Restore clear light text on dark-green actions and correct any dark-on-dark labels.
 - [x] Reduce Khmer and English display scale, lead size, and mobile spacing to soften the homepage hierarchy.
 - [x] Validate the updated buttons and type scale at mobile and desktop widths.

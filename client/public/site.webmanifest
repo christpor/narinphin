@@ -1,7 +1,8 @@
 {
   "name": "Narin Phin | English Educator & Academic Leader",
   "short_name": "Narin Phin",
-  "start_url": "/",
+  "start_url": "/narinphin-portfolio/",
+  "scope": "/narinphin-portfolio/",
   "display": "browser",
   "background_color": "#FBFAF6",
   "theme_color": "#173F37"

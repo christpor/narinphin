@@ -2,19 +2,20 @@
  * Design reminder — The Scholarly Atelier, revised:
  * bilingual editorial clarity, real page routes, considered teaching imagery, and no decorative emoji.
  */
-export const SITE_ORIGIN = "https://narinphin.vercel.app";
+export const SITE_ORIGIN = "https://narinphin.github.io/narinphin-portfolio";
 export const SITE_NAME = "Narin Phin";
 export const EMAIL = "narinphin05@gmail.com";
 export const YOUTUBE_URL = "https://www.youtube.com/@narinphin";
+const ASSET_ORIGIN = "https://narinfolio-lpqkrtgt.manus.space";
 
 export const ASSETS = {
-  mark: "/manus-storage/narin-np-mark_19cfd537.png",
-  portrait: "/manus-storage/narin-portrait-vertical_1667cb38.png",
-  portraitSquare: "/manus-storage/narin-portrait-square_4840a4f9.jpg",
-  classroom: "/manus-storage/narin-classroom_1a26022f.jpg",
-  library: "/manus-storage/narin-library_7c0de128.jpg",
-  campus: "/manus-storage/narin-campus-corridor_00728bec.jpg",
-  studio: "/manus-storage/narin-youtube-studio_89c2990c.jpg",
+  mark: `${ASSET_ORIGIN}/manus-storage/narin-np-mark_19cfd537.png`,
+  portrait: `${ASSET_ORIGIN}/manus-storage/narin-portrait-vertical_1667cb38.png`,
+  portraitSquare: `${ASSET_ORIGIN}/manus-storage/narin-portrait-square_4840a4f9.jpg`,
+  classroom: `${ASSET_ORIGIN}/manus-storage/narin-classroom_1a26022f.jpg`,
+  library: `${ASSET_ORIGIN}/manus-storage/narin-library_7c0de128.jpg`,
+  campus: `${ASSET_ORIGIN}/manus-storage/narin-campus-corridor_00728bec.jpg`,
+  studio: `${ASSET_ORIGIN}/manus-storage/narin-youtube-studio_89c2990c.jpg`,
 };
 
 export const NAV_ITEMS = [

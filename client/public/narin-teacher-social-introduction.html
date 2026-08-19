@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="km">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>លោកគ្រូ ណារិន — English Classes</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+      :root { --ink: #153f37; --ivory: #fcfaf5; --copper: #b2654d; --sky: #2aabee; --muted: #526861; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; }
+      body { background: var(--ivory); color: var(--ink); font-family: "Kantumruy Pro", sans-serif; }
+      .poster { position: relative; display: grid; grid-template-columns: 57% 43%; width: 1080px; height: 1350px; overflow: hidden; background: var(--ivory); }
+      .poster::before { position: absolute; top: -300px; right: -270px; width: 700px; height: 700px; border-radius: 50%; background: var(--ink); content: ""; }
+      .poster::after { position: absolute; right: 0; bottom: 0; left: 0; height: 225px; background: var(--ink); content: ""; }
+      .left { position: relative; z-index: 2; padding: 92px 52px 235px 76px; }
+      .eyebrow { display: flex; align-items: center; gap: 14px; color: var(--copper); font-family: Arial, sans-serif; font-size: 18px; font-weight: 800; letter-spacing: .13em; }
+      .eyebrow::before { width: 48px; height: 4px; background: var(--copper); content: ""; }
+      h1 { margin: 70px 0 12px; font-size: 88px; font-weight: 800; letter-spacing: -.045em; line-height: 1.05; }
+      .offer { margin: 0; max-width: 500px; color: var(--muted); font-size: 42px; font-weight: 700; line-height: 1.22; }
+      .english { margin: 37px 0 0; color: var(--copper); font-family: "Playfair Display", Georgia, serif; font-size: 28px; line-height: 1.25; }
+      .experience { display: grid; grid-template-columns: 48px 1fr; gap: 15px; align-items: center; margin-top: 80px; padding: 20px 0; border-top: 1px solid rgba(21, 63, 55, .2); border-bottom: 1px solid rgba(21, 63, 55, .2); }
+      .experience-mark { display: grid; width: 48px; height: 48px; place-items: center; border-radius: 50%; background: var(--copper); color: white; font-family: Arial, sans-serif; font-size: 18px; font-weight: 800; }
+      .experience p { margin: 0; font-size: 28px; font-weight: 700; line-height: 1.25; }
+      .portrait-area { position: relative; z-index: 1; display: flex; align-items: end; padding: 190px 0 225px 0; }
+      .portrait-frame { position: relative; width: 500px; height: 790px; overflow: hidden; border-radius: 250px 0 0 0; border: 8px solid var(--ivory); background: #e7e3d9; box-shadow: -18px 22px 0 rgba(178, 101, 77, .65); }
+      .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 58% center; }
+      .teaching-tag { position: absolute; z-index: 3; right: 10px; bottom: 275px; max-width: 280px; padding: 20px 24px; border-radius: 12px 0 0 12px; background: var(--copper); color: white; font-size: 23px; font-weight: 700; line-height: 1.18; box-shadow: 0 12px 30px rgba(21,63,55,.18); }
+      .contact { position: absolute; z-index: 4; right: 0; bottom: 0; left: 0; display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 225px; padding: 42px 76px; color: var(--ivory); }
+      .contact-copy { display: grid; grid-template-columns: 62px 1fr; align-items: center; gap: 18px; }
+      .telegram-logo { width: 58px; height: 58px; object-fit: contain; }
+      .contact-label { margin: 0 0 5px; color: #9bdcfb; font-family: Arial, sans-serif; font-size: 17px; font-weight: 800; letter-spacing: .14em; }
+      .handle { margin: 0; font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; letter-spacing: .01em; }
+      .phone { margin: 6px 0 0; font-family: Arial, sans-serif; font-size: 22px; font-weight: 700; }
+      .arrow { display: grid; width: 56px; height: 56px; place-items: center; border-radius: 50%; background: var(--sky); color: white; font-family: Arial, sans-serif; font-size: 34px; font-weight: 900; }
+    </style>
+  </head>
+  <body>
+    <main class="poster" aria-label="Teacher Narin English classes social introduction">
+      <section class="left">
+        <div class="eyebrow">ENGLISH CLASSES · PHNOM PENH</div>
+        <h1>លោកគ្រូ<br />ណារិន</h1>
+        <p class="offer">បង្រៀនភាសាអង់គ្លេស<br />សម្រាប់គ្រប់កម្រិត</p>
+        <p class="english">English Classes with<br />Teacher Narin</p>
+        <div class="experience"><div class="experience-mark">30+</div><p>បទពិសោធន៍<br />បង្រៀនជាង ៣០ ឆ្នាំ</p></div>
+      </section>
+      <section class="portrait-area" aria-label="Teacher Narin portrait"><figure class="portrait-frame"><img src="/manus-storage/narin-teacher-portrait-light-shirt_12d9aa45.png" alt="Teacher Narin in a classroom setting" /></figure></section>
+      <div class="teaching-tag">រៀនដោយភាពច្បាស់លាស់<br />ទំនុកចិត្ត និងការយកចិត្តទុកដាក់</div>
+      <footer class="contact"><div class="contact-copy"><img class="telegram-logo" src="/manus-storage/telegram-mark_9b3fe191.webp" alt="Telegram" /><div><p class="contact-label">MESSAGE ON TELEGRAM</p><p class="handle">@NARINPHIN</p><p class="phone">+855 10 645 517</p></div></div><div class="arrow">›</div></footer>
+    </main>
+  </body>
+</html>
