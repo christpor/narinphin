@@ -2,7 +2,7 @@
  * Design reminder — The Scholarly Atelier, revised:
  * bilingual editorial clarity, real page routes, considered teaching imagery, and no decorative emoji.
  */
-export const SITE_ORIGIN = "https://narinphin.github.io/narinphin";
+export const SITE_ORIGIN = "https://narinphin.vercel.app";
 export const SITE_NAME = "Narin Phin";
 export const EMAIL = "narinphin05@gmail.com";
 export const YOUTUBE_URL = "https://www.youtube.com/@narinphin";
