@@ -3,6 +3,7 @@
 - [x] Confirm GitHub repository owner, name, visibility, and publishing destination before exporting the portfolio code.
 - [x] Prepare and validate the GitHub Pages build, deployment workflow, and export-ready commit.
 - [x] Receive the user-created public repository URL: https://github.com/narinphin/narinphin.
+- [x] Confirm that the connected GitHub integration can push to narinphin/narinphin and correct the Pages workflow setup order.
 - [ ] Push the export-ready commit to narinphin/narinphin, enable GitHub Pages, and verify https://narinphin.github.io/narinphin/.
 - [x] Create a reusable educator-brand visual campaign skill from the completed workflow.
 - [x] Include concise guidance for discovery, visual routing, exact text, print proofing, social graphics, and QR/contact validation.
